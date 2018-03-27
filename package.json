@@ -6,9 +6,6 @@
 	"scripts": {
 		"install": "install.cmd"
 	},
-	"os": [
-		"win32"
-	],
 	"engines": {
 		"node": ">=6.4"
 	},
