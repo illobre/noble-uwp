@@ -1,4 +1,4 @@
 const { exec } = require('child_process');
 
-if (process.env == 'win32')
-exec('install.cmd');
+if (process.platform == 'win32')
+	exec('install.cmd');
